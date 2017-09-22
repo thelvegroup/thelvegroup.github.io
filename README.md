@@ -4,10 +4,10 @@
 
 Author(s): Robert Neal 
 
-Description: Website made LVE Group
+Description: Website made for the LVE Group
 
 Project Status : On Going 
 
-GitHub Pages Link - https://robneal.github.io/thelvegroup
+GitHub Pages Link - https://thelvegroup.github.io
 
 Website  - http://thelvegroup.com/
