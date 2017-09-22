@@ -1,0 +1,49 @@
+
+.site-header{
+	background-color: white;
+	color:black; 
+	padding: 0;
+	display: block;
+	margin:0 auto;
+	transition: background-color .3s ease-out;  
+	min-height:60px; 
+	
+	position: fixed;
+	top:0;
+	width:100%; 
+	min-width: 318px; 
+	z-index: 100;  
+	
+	-webkit-margin-before-collapse: separate;
+	-webkit-box-shadow: rgba(0,0,0,0.15) 0 6px 10px;
+    box-shadow: rgba(0,0,0,0.08) 0 6px 10px; 
+    //-------------------------------------------------------------------------
+
+    &__logo{
+	    height: 50px;
+	    margin: 5px auto;
+	    line-height: 50px;
+	    font-size: 26px;
+	    font-weight: bold;
+	    text-align: center;
+	    color: #2D9CDB;
+	    display: block;
+	    text-transform: uppercase;
+	    width: 100%;
+	    max-width: 250px;
+
+	    &__lve{
+	    	color:black;
+	    }
+
+	    &:hover{
+	    	color: black;
+
+	    	span{
+	    		//color: $lve-blue; 
+	    	}
+	    }
+
+    }
+
+}

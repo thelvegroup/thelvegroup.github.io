@@ -1,0 +1,17 @@
+.wrapper{
+	margin: 0 auto; 
+	padding: 0px 2rem;
+	max-width: $lg-breakpoint;  
+	
+	@include at-media-breakpoint(960px) {
+		padding: 0px 2.5rem;
+		max-width: 1024px;
+		margin: 0 auto;
+ 	}
+
+ 	&--thin{
+ 		padding: 0px .5rem;
+ 		max-width: $md-laptop-breakpoint; 
+ 	}
+}
+

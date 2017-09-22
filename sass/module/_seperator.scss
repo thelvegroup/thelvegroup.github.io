@@ -1,0 +1,34 @@
+.seperator{
+	&__short{
+		width: 90px;
+    	margin: 15px auto 30px auto;
+    	
+    	&--fat{
+    		border: solid 3px black;
+    	}
+    	&--thin{
+    		border: solid 1px black;
+    	}
+    	&--white{
+    		border-color: white; 
+    	}
+	}
+
+
+
+	&__long{
+		width: 100%;
+    	margin: 15px auto 30px auto;
+    	
+    	&--fat{
+    		border: solid 3px black;
+    	}
+    	&--thin{
+    		border: solid 1px black;
+    	}
+    	&--white{
+    		border-color: white; 
+    	}
+	}
+
+}

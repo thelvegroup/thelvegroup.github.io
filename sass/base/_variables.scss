@@ -1,0 +1,37 @@
+// _variables.scss
+
+// ---------------------------------------------------------------------------//
+
+@import "https://fonts.googleapis.com/css?family=Roboto:100,300i,400,400i,700,900";
+@import "https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i";
+
+// Main Colors ---------------- / 
+
+// Main Colors ---------------- / 
+$lve-blue      		: #2D9CDB; 
+
+
+// Secondary Colors ---------- / 
+$light-gray        	: #EFEFEF;
+$warning-red		: #790000; 
+$ltBlack			: #3a3a3a;
+$warning-yellow		: #fff554;
+
+
+// Base Styles --------------- /
+$main-font 			: 'Roboto', sans-serif;
+$second-font		: 'PT Sans', sans-serif;
+$base-font-size 	: 16px; 
+$base-line-height	: 1.6; 
+$base-text-color	: black;
+$base-link-color	: $lve-blue; 
+$base-hover-color	: black;
+
+
+// Breakpoints --------------- / 
+$xsm-breakpoint   			: 320px;
+$sm-breakpoint				: 480px; 
+$md-breakpoint				: 760px; 
+$lg-breakpoint				: 960px; 
+$sm-laptop-breakpoint		: 1024px; 
+$md-laptop-breakpoint		: 1400px; 

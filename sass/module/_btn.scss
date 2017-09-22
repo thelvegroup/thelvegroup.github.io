@@ -1,0 +1,20 @@
+.btn{ // normal white background black text
+	display:inline-block;
+	background-color:white;
+	padding: 15px;
+	color:black;
+	text-align: center;
+	border: solid 3px white; 
+
+	-webkit-transition: all 0.7s ease-out;
+    -moz-transition: all 0.7s ease-out;
+    -ms-transition: all 0.7s ease-out;
+    -o-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+
+	&:hover{
+		color:white;
+		background-color: black;
+		border: solid 3px black; 
+	}
+}

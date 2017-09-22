@@ -1,0 +1,56 @@
+.page-section{
+	padding: 90px 0px;
+	background-color: white;
+	color:black;
+
+	&--small-padding{
+		padding-top: 25px;
+		padding-bottom:25px;
+	}
+
+	&--medium-padding{
+		padding-top: 50px;
+		padding-bottom:50px;
+	}
+	
+	&--no-bottom-padding{
+		padding-bottom: 0px;
+	}
+
+	&--blue{
+		background-color: $lve-blue; 
+		color:white; 
+	}
+	&--black{
+		background-color: black; 
+		color:white;
+	}
+	&--brown{
+		background-color: #221e20;
+		color:white;
+	}
+
+
+	&__section-title{
+		//text-transform: uppercase;
+		//font-size: 35px;
+		//padding: 25px 0 10px 0;
+		//font-family: 'Bowlby One', cursive;
+
+		text-transform: uppercase;
+	    font-size: 35px;
+	    padding: 25px 0 10px 0;
+	    /* font-family: 'Bowlby One', cursive; */
+	    color: inherit;
+	    line-height: 1.2;
+	    font-weight: 700;
+	    text-transform: uppercase;
+
+
+	    &--centered{
+	    	text-align: center;
+	    }
+	}
+
+
+}
