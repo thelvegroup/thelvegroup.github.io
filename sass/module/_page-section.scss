@@ -20,6 +20,10 @@
 	&--blue{
 		background-color: $lve-blue; 
 		color:white; 
+
+		& .page-section__title{
+			color: white; 
+		}
 	}
 	&--black{
 		background-color: black; 
