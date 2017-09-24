@@ -9,8 +9,8 @@
 	}
 
 	&--medium-padding{
-		padding-top: 50px;
-		padding-bottom:50px;
+		padding-top: 45px;
+		padding-bottom:45px;
 	}
 	
 	&--no-bottom-padding{
@@ -31,25 +31,15 @@
 	}
 
 
-	&__section-title{
-		//text-transform: uppercase;
-		//font-size: 35px;
-		//padding: 25px 0 10px 0;
-		//font-family: 'Bowlby One', cursive;
-
+	&__title{
 		text-transform: uppercase;
 	    font-size: 35px;
-	    padding: 25px 0 10px 0;
-	    /* font-family: 'Bowlby One', cursive; */
+	    padding: 25px 0 45px 0;
 	    color: inherit;
 	    line-height: 1.2;
 	    font-weight: 700;
-	    text-transform: uppercase;
-
-
-	    &--centered{
-	    	text-align: center;
-	    }
+	    text-align: center;
+	    color: $lve-blue;
 	}
 
 

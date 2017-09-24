@@ -6,7 +6,7 @@
 	display: block;
 	margin:0 auto;
 	transition: background-color .3s ease-out;  
-	min-height:60px; 
+	min-height:90px; 
 	
 	//position: fixed;
 	//top:0;
@@ -20,13 +20,13 @@
     //-------------------------------------------------------------------------
 
     &__logo{
-	    height: 50px;
+	    height: 80px;
 	    margin: 5px auto;
-	    line-height: 50px;
-	    font-size: 26px;
+	    line-height: 80px;
+	    font-size: 30px;
 	    font-weight: bold;
 	    text-align: center;
-	    color: #2D9CDB;
+	    color:$lve-blue; 
 	    display: block;
 	    text-transform: uppercase;
 	    width: 100%;
