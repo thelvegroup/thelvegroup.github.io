@@ -1,0 +1,38 @@
+
+
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="laptop--black">
+            <circle id="Oval" fill-opacity="0.00999999978" fill="#125688" fill-rule="nonzero" cx="100" cy="100" r="100"></circle>
+            <g id="Group" transform="translate(26.000000, 54.000000)">
+                <g id="sceen" transform="translate(24.000000, 5.000000)">
+                    <g id="path-1-link" fill="#312D32">
+                        <rect id="path-1" x="0" y="0" width="100" height="71"></rect>
+                    </g>
+                    <rect id="Rectangle-path" x="0" y="0" width="100" height="71"></rect>
+                </g>
+                <g id="screen-outline" transform="translate(19.000000, 0.000000)">
+                    <g id="path-2-link" fill="#D8D8D8" fill-opacity="0">
+                        <rect id="path-2" x="0" y="0" width="110" height="85" rx="8"></rect>
+                    </g>
+                    <rect id="Rectangle-path" stroke="#000000" stroke-width="6" x="3" y="3" width="104" height="79" rx="8"></rect>
+                </g>
+                <g id="keyboard" transform="translate(0.000000, 73.000000)">
+                    <g id="path-3-link" fill="#E7E7E7">
+                        <polygon id="path-3" points="0 0 148 0 132.773437 18.9570312 15.2265625 18.9570312"></polygon>
+                    </g>
+                    <polygon id="Shape" stroke="#000000" stroke-width="6" points="6.25754969 3 141.74245 3 131.335175 15.9570312 16.6648252 15.9570312"></polygon>
+                </g>
+                <g id="indent" transform="translate(48.000000, 76.000000)">
+                    <g id="path-4-link" fill="#D8D8D8">
+                        <polygon id="path-4" points="0 0 52 0 46.6501267 6 5.3498733 6"></polygon>
+                    </g>
+                    <polygon id="Shape" stroke="#000000" stroke-width="2.09999996" points="2.3430052 1.05 49.6569948 1.05 46.1795772 4.95 5.8204228 4.95"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
