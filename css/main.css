@@ -601,7 +601,7 @@ a {
 
 .lve-info {
   width: 100%;
-  max-width: 850px;
+  max-width: 800px;
   margin: 0 auto;
   position: relative;
   margin-bottom: -40px; }
@@ -646,7 +646,7 @@ a {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  max-width: 760px;
+  max-width: 850px;
   margin: 0 auto; }
   @media (min-width: 720px) {
     .team-founder-group {
@@ -654,14 +654,16 @@ a {
 
 .team-founder {
   width: 100%;
-  max-width: 375px;
+  max-width: 600px;
   padding: 25px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 35px; }
   .team-founder__name {
     color: #ffffff;
     font-size: 30px;
     font-weight: bold;
     margin-top: 10px;
+    text-align: center;
     margin-bottom: 10px; }
     .team-founder__name a {
       text-decoration: none;
@@ -680,7 +682,7 @@ a {
       min-width: 1px;
       min-height: 1px;
       display: inline-block;
-      margin-left: 18px; }
+      margin-left: 5px; }
       .team-founder__name a img {
         max-width: 29px;
         max-height: 29px;
@@ -695,25 +697,35 @@ a {
     min-height: 200px;
     height: 100%;
     max-height: 240px;
-    width: 100%; }
+    width: 100%;
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 20px; }
   .team-founder__title {
     color: #F1F4F1;
     font-size: 18px;
     font-weight: bold;
-    line-height: 40px; }
+    line-height: 40px;
+    text-align: center; }
   .team-founder__bio {
     color: #F1F4F1;
     font-size: 16px;
     padding-top: 10px;
-    padding-bottom: 40px; }
+    padding-bottom: 20px;
+    text-align: center; }
   .team-founder__social-title {
-    color: #F1F4F1;
+    color: #221e20;
     font-size: 18px;
-    font-weight: normal; }
+    font-weight: bold;
+    text-align: center; }
   .team-founder__social {
     margin-top: 15px;
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center; }
     .team-founder__social__item {
       display: block;
       width: 35px;
