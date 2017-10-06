@@ -1,52 +1,90 @@
 .info-form{
+    // position: relative;
+    // width: 100%;
+    // margin: 45px auto 20px auto;
+    // text-align: center;
+    // padding-left: 12px;
+    // max-width: 450px;
+
     position: relative;
     width: 100%;
-    margin: 45px auto 20px auto;
+    margin: 45px auto 45px auto;
     text-align: center;
-    padding-left: 12px;
-    max-width: 450px;
+    max-width: 620px;
+    min-height: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
 
     &__input{
-	    color: #ADA8A8; 
+		color: #ADA8A8;
 	    font-size: 12px;
 	    border-radius: 5px;
 	    height: 50px;
 	    line-height: 45px;
-	    padding-left: 13px;
-	    padding-right: 10px; 
+	    padding-left: 12px;
+	    padding-right: 10px;
 	    position: relative;
 	    width: 48%;
 	    display: inline;
 	    font-weight: lighter;
+	    background: #E7E9EC;
     }
 
    	span{
-   		position: absolute;
+	    position: absolute;
 	    top: 0;
 	    z-index: 1;
-	    font-size: 30px;
+	    font-size: 26px;
 	    height: 40px;
 	    line-height: 40px;
 	    margin: 5px auto;
-	    left: 49%;
-	    color: #ADA8A8; 
+	    left: 45%;
+	    color: #ADA8A8;
 	    font-weight: 100;
+
    	}
 
+    &__input.first{
+    	position: absolute;
+    	left: 0;
+    	margin-left: 20px;
+    }
+
     &__input.last{
-		top: 0;
-	    left: -12px;
-	    /* border-left: solid 1px #4A4A4A; */
+		right: 0;
 	    border-top-left-radius: 0px;
 	    border-bottom-left-radius: 0px;
+	    padding-left: 24px;
+	    width: 53%;
+	    position: absolute;
+	    margin-right: 20px;
+    }
+
+    &__textarea{
+    	resize: none;
+	    top: 60px;
+	    color: #ADA8A8;
+	    font-size: 12px;
+	    border-radius: 5px;
+	    line-height: 45px;
+	    padding-left: 12px;
+	    padding-right: 10px;
+	    position: relative;
+	    width: 100%;
+	    display: inline-block;
+	    font-weight: lighter;
+	    background: #E7E9EC;
+	    height: 200px;
+	    padding: 10px;
+	    border: none;
     }
 
     &__submit{
 	    cursor: pointer;
-	    display: block;
 	    margin: 20px auto;
-	    width: 94%;
-	    height: 50px;
+	    height: 75px;
 	    font-size: 20px;
 	    line-height: 48px;
 	    border-radius: 5px;
@@ -54,8 +92,12 @@
 	    background-color: black;
 	    color: white;
 	    font-weight: bold;
+	    margin-left: auto;
+	    margin-right: auto;
+	    top: 60px;
 	    position: relative;
-	    left: -5px;
-	    max-width: 250px;
+	    width: 100%;
+	    display: inline-block;
+	    left: 0;
     }
 }

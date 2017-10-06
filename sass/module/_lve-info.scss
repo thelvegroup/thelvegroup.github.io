@@ -1,6 +1,6 @@
 .lve-info{
 	width: 100%;
-	max-width: 720px;
+	max-width: 630px;
 	margin: 0 auto;
 	position: relative;
 	margin-bottom: -40px; 
@@ -18,7 +18,7 @@
 	    color: black;
 	    background-color: rgba(245, 244, 244, .8);
 	    margin: 0 auto;
-	    border-radius: 10px;
+	    //border-radius: 10px;
 	    padding: 20px;
 	    position: relative;
 	    top: -125px;
@@ -36,13 +36,15 @@
 		 //    padding-top: 5px;
 		 //    padding-bottom: 15px;
 
-			// @include at-media-breakpoint(475px) {
-			// 	font-size: 28px;
-		 //   }
-
-		    font-size: 24px;
-    		line-height: 34px;
-    		letter-spacing: .04em;
+		    font-size: 18px;
+    		//line-height: 34px;
+    		//letter-spacing: .04em;
+			@include at-media-breakpoint(400px) {
+				font-size: 24px;
+		   }   
+			@include at-media-breakpoint(475px) {
+				font-size: 28px;
+		   } 		    		
 
 	    }
 
@@ -53,14 +55,14 @@
 		    text-align: left;
 		    font-weight: bold;
 
-		    font-size: 15px;
-		    line-height: 24px;
-		    letter-spacing: .005em;
-		    margin-top:15px;
-		    margin-bottom: 15px; 
+		    font-size: 16px;
+		    //line-height: 24px;
+		    //letter-spacing: .005em;
+		    margin-top:10px;
+		    margin-bottom: 10px; 
 
 		    @include at-media-breakpoint(475px) {
-				font-size: 18px;
+				//font-size: 18px;
 		   }
 
 	    }

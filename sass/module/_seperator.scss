@@ -1,16 +1,18 @@
 .seperator{
 	&__short{
 		width: 90px;
-    	margin: 15px auto 30px auto;
+    	margin: 15px auto 45px auto;
+        color:inherit; 
     	
     	&--fat{
+            width: 90px;
+            margin: 15px auto 45px auto;
     		border: solid 3px black;
     	}
     	&--thin{
+            width: 90px;
+            margin: 15px auto 45px auto;
     		border: solid 1px black;
-    	}
-    	&--white{
-    		border-color: white; 
     	}
 	}
 
@@ -18,17 +20,22 @@
 
 	&__long{
 		width: 100%;
-    	margin: 15px auto 30px auto;
+    	margin: 15px auto 45px auto;
+        color:inherit; 
     	
     	&--fat{
+            width: 100%;
+            margin: 15px auto 45px auto;
     		border: solid 3px black;
     	}
     	&--thin{
+            width: 100%;
+            margin: 15px auto 45px auto;
     		border: solid 1px black;
-    	}
-    	&--white{
-    		border-color: white; 
     	}
 	}
 
+    &--white{           
+        border-color: white; 
+    }
 }

@@ -503,12 +503,12 @@ a {
   .page-section__title {
     text-transform: uppercase;
     font-size: 35px;
-    padding: 25px 0 45px 0;
+    padding: 25px 0 10px 0;
     color: inherit;
     line-height: 1.2;
     font-weight: 700;
     text-align: center;
-    color: #125688; }
+    color: black; }
 
 .btn {
   display: inline-block;
@@ -529,65 +529,97 @@ a {
 
 .seperator__short {
   width: 90px;
-  margin: 15px auto 30px auto; }
+  margin: 15px auto 45px auto;
+  color: inherit; }
   .seperator__short--fat {
+    width: 90px;
+    margin: 15px auto 45px auto;
     border: solid 3px black; }
   .seperator__short--thin {
+    width: 90px;
+    margin: 15px auto 45px auto;
     border: solid 1px black; }
-  .seperator__short--white {
-    border-color: white; }
 .seperator__long {
   width: 100%;
-  margin: 15px auto 30px auto; }
+  margin: 15px auto 45px auto;
+  color: inherit; }
   .seperator__long--fat {
+    width: 100%;
+    margin: 15px auto 45px auto;
     border: solid 3px black; }
   .seperator__long--thin {
+    width: 100%;
+    margin: 15px auto 45px auto;
     border: solid 1px black; }
-  .seperator__long--white {
-    border-color: white; }
+.seperator--white {
+  border-color: white; }
 
 .info-form {
   position: relative;
   width: 100%;
-  margin: 45px auto 20px auto;
+  margin: 45px auto 45px auto;
   text-align: center;
-  padding-left: 12px;
-  max-width: 450px; }
+  max-width: 620px;
+  min-height: 375px;
+  padding-left: 20px;
+  padding-right: 20px; }
   .info-form__input {
     color: #ADA8A8;
     font-size: 12px;
     border-radius: 5px;
     height: 50px;
     line-height: 45px;
-    padding-left: 13px;
+    padding-left: 12px;
     padding-right: 10px;
     position: relative;
     width: 48%;
     display: inline;
-    font-weight: lighter; }
+    font-weight: lighter;
+    background: #E7E9EC; }
   .info-form span {
     position: absolute;
     top: 0;
     z-index: 1;
-    font-size: 30px;
+    font-size: 26px;
     height: 40px;
     line-height: 40px;
     margin: 5px auto;
-    left: 49%;
+    left: 45%;
     color: #ADA8A8;
     font-weight: 100; }
+  .info-form__input.first {
+    position: absolute;
+    left: 0;
+    margin-left: 20px; }
   .info-form__input.last {
-    top: 0;
-    left: -12px;
-    /* border-left: solid 1px #4A4A4A; */
+    right: 0;
     border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px; }
+    border-bottom-left-radius: 0px;
+    padding-left: 24px;
+    width: 53%;
+    position: absolute;
+    margin-right: 20px; }
+  .info-form__textarea {
+    resize: none;
+    top: 60px;
+    color: #ADA8A8;
+    font-size: 12px;
+    border-radius: 5px;
+    line-height: 45px;
+    padding-left: 12px;
+    padding-right: 10px;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    font-weight: lighter;
+    background: #E7E9EC;
+    height: 200px;
+    padding: 10px;
+    border: none; }
   .info-form__submit {
     cursor: pointer;
-    display: block;
     margin: 20px auto;
-    width: 94%;
-    height: 50px;
+    height: 75px;
     font-size: 20px;
     line-height: 48px;
     border-radius: 5px;
@@ -595,13 +627,17 @@ a {
     background-color: black;
     color: white;
     font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    top: 60px;
     position: relative;
-    left: -5px;
-    max-width: 250px; }
+    width: 100%;
+    display: inline-block;
+    left: 0; }
 
 .lve-info {
   width: 100%;
-  max-width: 720px;
+  max-width: 630px;
   margin: 0 auto;
   position: relative;
   margin-bottom: -40px; }
@@ -615,7 +651,6 @@ a {
     color: black;
     background-color: rgba(245, 244, 244, 0.8);
     margin: 0 auto;
-    border-radius: 10px;
     padding: 20px;
     position: relative;
     top: -125px;
@@ -625,20 +660,19 @@ a {
         padding: 30px; } }
     .lve-info__card__title, .lve-info__card--right__title {
       color: #125688;
-      font-size: 24px;
-      line-height: 34px;
-      letter-spacing: .04em; }
+      font-size: 18px; }
+      @media (min-width: 400px) {
+        .lve-info__card__title, .lve-info__card--right__title {
+          font-size: 24px; } }
+      @media (min-width: 475px) {
+        .lve-info__card__title, .lve-info__card--right__title {
+          font-size: 28px; } }
     .lve-info__card__text, .lve-info__card--right__text {
       text-align: left;
       font-weight: bold;
-      font-size: 15px;
-      line-height: 24px;
-      letter-spacing: .005em;
-      margin-top: 15px;
-      margin-bottom: 15px; }
-      @media (min-width: 475px) {
-        .lve-info__card__text, .lve-info__card--right__text {
-          font-size: 18px; } }
+      font-size: 16px;
+      margin-top: 10px;
+      margin-bottom: 10px; }
   .lve-info__card--right {
     margin: 0px 10% 0 auto; }
 
@@ -657,9 +691,10 @@ a {
   max-width: 600px;
   padding: 25px;
   margin: 0 auto;
-  padding-top: 35px; }
+  padding-top: 35px;
+  padding-top: 0px; }
   .team-founder__name {
-    color: #ffffff;
+    color: black;
     font-size: 30px;
     font-weight: bold;
     margin-top: 10px;
@@ -667,8 +702,8 @@ a {
     margin-bottom: 10px; }
     .team-founder__name a {
       text-decoration: none;
-      background-color: #ffffff;
-      color: #221e20;
+      background-color: #c7d4de;
+      color: white;
       padding: 10px;
       text-transform: uppercase;
       border-radius: 24px;
@@ -690,27 +725,30 @@ a {
         left: 3px;
         top: 3px; }
       .team-founder__name a span {
-        font-weight: bold; }
-      .team-founder__name a:hover {
+        font-weight: bold;
+        color: black; }
+      .team-founder__name a:hover span {
         color: #56cbf2; }
   .team-founder__image {
     min-height: 200px;
     height: 100%;
-    max-height: 240px;
+    max-height: 270px;
     width: 100%;
-    max-width: 225px;
+    max-width: 210px;
     margin-left: auto;
     margin-right: auto;
     display: block;
     margin-bottom: 20px; }
   .team-founder__title {
     color: #F1F4F1;
+    color: black;
     font-size: 18px;
     font-weight: bold;
     line-height: 40px;
     text-align: center; }
   .team-founder__bio {
     color: #F1F4F1;
+    color: black;
     font-size: 16px;
     padding-top: 10px;
     padding-bottom: 20px;
@@ -732,6 +770,7 @@ a {
       height: 35px;
       border-radius: 50px;
       background-color: white;
+      background-color: #c6d4dd;
       margin: 7px;
       position: relative; }
       .team-founder__social__item:hover {
@@ -800,7 +839,9 @@ a {
 .visual-lead {
   background-color: #125688;
   margin-top: -5px;
-  width: 100%; }
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 90px; }
   .visual-lead .wrapper {
     max-width: 750px; }
   .visual-lead__title {
