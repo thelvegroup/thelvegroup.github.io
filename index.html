@@ -25,7 +25,7 @@
 	<header class="site-header">
 		
 		<nav class="wrapper">
-			<a class="site-header__logo" href="index.html">
+			<a class="site-header__logo" href="index.html#visual-lead">
 				The <span class="site-header__logo__lve">LVE</span> Group
 			</a>
 		</nav>
@@ -34,7 +34,8 @@
 
 	<!-- <div class="sticky-footer"> -->
 
-	<section class="visual-lead page-section--medium-padding">
+	<section id="visual-lead" class="visual-lead page-section--medium-padding">
+		<div class="overlay"></div>
 		<div class="wrapper">
 			<h1 class="visual-lead__title">Grow Your Business From Idea To Exit.</h1>
 
@@ -190,11 +191,12 @@
 		<hr class="seperator__short--fat" />
 
 		<form class="info-form" action="https://formspree.io/ptribles@thelvegroup.com" method="POST">
-				
-			<input class="info-form__input first" placeholder="Your Email" type="email" id="email" name="_replyto">
+			
+			<input class="info-form__input first" placeholder="Your Name" type="text" id="name" name="name">	
+			
 			<span>|</span>
 			
-			<input class="info-form__input last" placeholder="Your Name" type="text" id="name" name="name">
+			<input class="info-form__input last" placeholder="Your Email" type="email" id="email" name="_replyto">
 
 
 			<textarea class="info-form__textarea" id="message" placeholder="Your Message" name="message"></textarea>

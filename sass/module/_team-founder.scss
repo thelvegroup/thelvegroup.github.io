@@ -25,18 +25,23 @@
         margin-top: 10px;
         text-align: center;
         margin-bottom: 10px;
+        //text-decoration: underline;
 
     	& a{
             text-decoration: none;
             background-color: #c7d4de;
             color: white;
             padding: 10px;
-            text-transform: uppercase;
+            /* text-transform: uppercase; */
             border-radius: 24px;
+            border-radius: 100%;
             position: relative;
             padding-left: 40px;
             vertical-align: middle;
-            padding-right: 12px;
+            vertical-align: text-top;
+            padding-right: 5px;
+            /* padding: 17px; */
+            padding: 18px 18px;
             font-size: 11px;
             border: 0;
             height: 35px;
@@ -44,23 +49,33 @@
             min-height: 1px;
             display: inline-block;
             margin-left: 5px;
+            max-width: 140px;
+            text-decoration: none;
+            /* margin: 0 auto; */
+            text-decoration: none;
+            text-decoration-line: none !important;
+            text-decoration-style: unset;
+            text-decoration-color: #c6d4dd;
 
             & img{
-                max-width: 29px;
-                max-height: 29px;
+                max-width: 30px;
+                max-height: 28px;
                 position: absolute;
-                left: 3px;
-                top: 3px;
+                left: 4px;
+                top: 4px;
             }
 
             & span{
                 font-weight: bold;
                 color: black;
+                display: none;
             }
 
             &:hover{
+                background-color: #56CCF2;
                 & span{
                     color: #56cbf2;
+
                 }
             }
     	}

@@ -1,19 +1,55 @@
 .visual-lead{
-	background-color: $lve-blue;
-	//margin-top: 60px; 
-	margin-top: -5px; 
-	width: 100%;
-	// min-height:calc(80vh); 
-	//position: relative;
-	padding-top:60px;
-	padding-bottom: 90px; 
-	
-	// @include at-media-breakpoint(940px) {
-	// 	max-height:100%; 
-	// }
+	// background-color: $lve-blue;
+	// //margin-top: 60px; 
+	// margin-top: -5px; 
+	// width: 100%;
+	// // min-height:calc(80vh); 
+	// //position: relative;
+	// padding-top:60px;
+	// padding-bottom: 90px; 
+	// background-image: url("../img/visuallead.jpg");
+
+    background-color: $lve-blue;
+    margin-top: 89px;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    min-height: 450px;
+    background-image: url(../img/visuallead.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+
+
 
 	& .wrapper{
-		max-width: 750px; 
+	    max-width: 750px;
+	    z-index: 0;
+	    position: relative; 
+	}
+
+	& .overlay{
+		position: absolute;
+	    height: 100%;
+	    background: #424242;
+	    width: 100%;
+	    top: 0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    opacity: 0.5;
+	    width: 100%;
+	    padding-top: 60px;
+	    padding-bottom: 90px;
+	    z-index: -1;
+	}
+
+	& + section{
+		position: relative;
+		z-index: 5; 
 	}
 
 	&__title{
