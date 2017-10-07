@@ -1,5 +1,5 @@
 jQuery(document).ready(function($){
-	console.log("js is twerking");
+	console.log("this LVE Group js file is twerking");
 	//console.log("The whole world hates ie, Stop using it! -__-"); 
 
 	// Smooth Scrolling on all local anchor links 
