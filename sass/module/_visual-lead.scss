@@ -3,7 +3,7 @@
 	// //margin-top: 60px; 
 	// margin-top: -5px; 
 	// width: 100%;
-	// // min-height:calc(80vh); 
+	// // min-height:calc(100vh - 90px); 
 	// //position: relative;
 	// padding-top:60px;
 	// padding-bottom: 90px; 
@@ -12,17 +12,19 @@
     background-color: $lve-blue;
     margin-top: 89px;
     width: 100%;
-    padding-top: 60px;
+    padding-top: 90px;
     padding-bottom: 90px;
     min-height: 450px;
     background-image: url(../img/visuallead.jpg);
     background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+    //background-attachment: fixed;
+    background-position: center bottom;
     background-repeat: no-repeat;
     position: relative;
     z-index: -1;
-
+    @include at-media-breakpoint(550px) {
+		min-height: 575px;
+    }
 
 
 	& .wrapper{
