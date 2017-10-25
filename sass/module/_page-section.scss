@@ -2,6 +2,7 @@
 	padding: 90px 0px;
 	background-color: white;
 	color:black;
+	color:#221e20;
 
 	&--small-padding{
 		padding-top: 25px;
@@ -32,6 +33,11 @@
 	&--brown{
 		background-color: #221e20;
 		color:white;
+
+		& .page-section__title{
+			color: white; 
+		}
+
 	}
 
 
@@ -44,6 +50,7 @@
 	    font-weight: 700;
 	    text-align: center;
 	    color:black;
+	    color: #221e20;
 	}
 
 

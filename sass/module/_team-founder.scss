@@ -20,6 +20,7 @@
 
     &__name{
         color: black;
+        color: #221e20; 
         font-size: 30px;
         font-weight: bold;
         margin-top: 10px;
@@ -30,6 +31,7 @@
     	& a{
             text-decoration: none;
             background-color: #c7d4de;
+            background-color: #7E7E7E;
             color: white;
             padding: 10px;
             /* text-transform: uppercase; */
@@ -73,6 +75,7 @@
 
             &:hover{
                 background-color: #56CCF2;
+                background-color: $lve-blue; 
                 & span{
                     color: #56cbf2;
 
@@ -96,6 +99,7 @@
     &__title{
     	color: #F1F4F1; 
         color:black;
+        color: #221e20; 
     	font-size: 18px; 
     	font-weight: bold; 
     	line-height: 40px;
@@ -132,11 +136,13 @@
 		    border-radius: 50px;
 		    background-color: white;
             background-color: #c6d4dd;
+            background-color: #7E7E7E;
 		    margin: 7px;
 		    position: relative;
 
 		    &:hover{
-		    	background-color: #56CCF2; 
+		    	background-color: #56CCF2;
+                background-color: $lve-blue;  
 		    }
 
 
